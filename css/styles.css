@@ -10,11 +10,12 @@ nav {
     box-sizing: border-box;
     padding-left: 300px; /* APPLYED DURING ALL HEADER*/
     padding-right: 300px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
     background: #1f2937;
     color: #e5e7eb;
     font-size: 18px;
-    height: 100px;
 }
 
 nav h2{
@@ -56,16 +57,27 @@ header{
     align-self: center;
     box-sizing: border-box;
     width: 500px;
-    height: 195px;
+    height: auto;
+    gap: 1rem;
 }
 
 #hero button {
+    padding: 10px;
+    text-align: center;
     width: 100px;
+
+    border-radius: 5px;
+    border: #3882f6;
+
+    color: #f9faf8;
+    background: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 header h1{
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
 }
 
 header p{
@@ -79,8 +91,6 @@ header img{
     border-radius: 5%;
 }
 
-header span{
-}
 
 q{
     background: #e5e7eb;
