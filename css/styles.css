@@ -82,7 +82,8 @@ header h1{
 
 header p{
     font-size: 18px;
-    font-weight: light-bold;
+    font-weight: light;
+    color: #e5e7eb;
 }
 
 header img{
@@ -91,6 +92,13 @@ header img{
     border-radius: 5%;
 }
 
+/* MAIN */
+
+main h1{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 60px;
+}
 
 q{
     background: #e5e7eb;
