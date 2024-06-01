@@ -169,5 +169,39 @@ section p{
     font-size: larger;
     text-align: end;
     color: #1f2937;
+}
 
+/* CALL TO ACTION */
+#callToAction{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#elements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 800px;
+    padding: 50px;
+    border-radius: 15px;
+    
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+#elements span button{
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+
+    border-radius: 5px;
+    border: 2px solid #f9faf8;
+
+    color: #f9faf8;
+    background: #3882f6;
+    font-size: 18px;
+    font-weight: bolder;
 }
