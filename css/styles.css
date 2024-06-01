@@ -96,11 +96,78 @@ header img{
 
 main h1{
     font-size: 35px;
+    font-weight: bolder;
+    color: #1f2937;
     text-align: center;
     margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    color: grey;
+}
+
+.container div{
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+    align-items: center;
+
+    box-sizing: border-box;
+    gap: 1rem;
+
+    text-align: center;
+}
+
+.container div p{
+    font-size: 18px;
+}
+.hero-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 10%;
+    border: 5px solid #3882f6;
 }
 
 q{
     background: #e5e7eb;
     height: 10rem;
+}
+
+/* SECTION */
+section{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb;
+    height: 300px;
+    width: auto;
+}
+
+section q{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+
+    width: 600px;
+    height: auto;
+}
+
+section p{
+    width: 600px;
+    font-weight: bold;
+    font-size: larger;
+    text-align: end;
+    color: #1f2937;
+
 }
