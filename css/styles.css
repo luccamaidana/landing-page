@@ -34,6 +34,11 @@ nav ul {
     margin: 0;
 }
 
+nav ul li a{
+    color:#f9faf8;
+    text-decoration: none;
+}
+
 /* HEADER */
 
 header{
